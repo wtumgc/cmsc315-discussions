@@ -106,7 +106,7 @@ class Queue:
         if len(self.queueItems) == 0:
             return True
 
-        return True
+        return False
 
 
 # TEST ABOVE CLASSES AND FUNCTIONS AND CONSTRUCTORS
