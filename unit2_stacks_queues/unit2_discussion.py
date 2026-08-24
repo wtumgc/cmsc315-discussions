@@ -169,8 +169,11 @@ def main():
     s2 = Stack()
     s2.push(67)
     print("      New stack with single item before pop", s2.stackItems)
-    s2.pop()
-    print("      After pop:", s2.stackItems)
+
+    #s2.pop()
+    #print("      After pop:", s2.stackItems)
+    print("      After pop:", s2.stackItems.pop())
+
     print("      Call the is_empty method and it returns:", s2.is_empty())
 
 
