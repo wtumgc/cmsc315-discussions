@@ -8,7 +8,7 @@ This assignment explores how data structure are used for implementing both stack
 
 ## Implementation
 
-elements although the consumer of the custom Stack and Queue classes does not need to be aware of this.
+The data is abstracted using LIST and DEQUE (from the COLLECIONS class) object elements although the consumer of the custom Stack and Queue classes does not need to be aware of this.
 
 ## Sample Output
 
