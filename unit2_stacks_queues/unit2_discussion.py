@@ -37,8 +37,8 @@ class Stack:
         # Remove the last item added to the stack using the built-in
         # pop method for arrays. Also check for empty stack
         if not self.stacItems:
-            #return None
-            return "The stack is empty"
+            return None
+            #return "The stack is empty"
 
         return self.stacItems.pop()
 
@@ -50,8 +50,8 @@ class Stack:
         # without removing it (and returns the value). Again, check for
         # an empty stack.
         if not self.stacItems:
-            #return None
-            return "The stack is empty"
+            return None
+            #return "The stack is empty"
 
         return self.stacItems[-1]
 
@@ -76,22 +76,37 @@ class Queue:
         # TODO (Student): Add value to the back of the queue.
         # Add a short comment explaining why this operation supports FIFO behavior.
 
-        pass
+        # Using the dequeue method, create an empty deque for queue entries
+        self.queueItems.append(value)
 
     def dequeue(self):
         # TODO (Student): Remove and return the value from the front of the queue.
         # Explain or improve empty-queue handling.
-        pass
+
+        # Return the value of the first item in the queue and make sure (same as above
+        # with Stack) the queue is not empty.
+        if len(self.queueItems) == 0:
+            return None
+
+        return self.queueItems.popleft()
 
     def front(self):
         # TODO (Student): Return the front value without removing it.
         # Add a comment explaining what front returns.
-        pass
+
+        # Return the value of the first item in the queue by referencing
+        # the fist item in the queue array i.e., [0]
+        if len(self.queueItems) == 0:
+            return None
+
+        return self.queueItems[0]
 
     def is_empty(self):
         # TODO (Student): Return True if the queue has no values.
-        pass
+        if len(self.queueItems) == 0:
+            return None
 
+        return True
 
 def main():
     print("=== UNIT 2: STACKS AND QUEUES ===")
@@ -112,32 +127,32 @@ def main():
     #    and verify the stack is empty afterward.
 
 
-print("\n=== STACK DEMO ===")
-print("TODO: Create a Stack object, demonstrate LIFO behavior,")
-print("      test popping from an empty stack,")
-print("      test peeking at an empty stack,")
-print("      and verify a single-item stack becomes empty after removal.")
+    print("\n=== STACK DEMO ===")
+    print("TODO: Create a Stack object, demonstrate LIFO behavior,")
+    print("      test popping from an empty stack,")
+    print("      test peeking at an empty stack,")
+    print("      and verify a single-item stack becomes empty after removal.")
 
-# ===============================
-# TODO (Student): QUEUE DEMO
-# ===============================
-# Requirements:
-# 1. Create a Queue object.
-# 2. Add at least 4 values to the queue.
-# 3. Improve the print statements so they clearly explain what is happening.
-# 4. Demonstrate FIFO behavior.
-# 5. Show what happens when dequeue() is used on an empty queue.
-#
-# Edge Cases:
-# 6. Show what happens when front() is used on an empty queue.
-# 7. Create a queue with only one item, remove it,
-#    and verify the queue is empty afterward.
+    # ===============================
+    # TODO (Student): QUEUE DEMO
+    # ===============================
+    # Requirements:
+    # 1. Create a Queue object.
+    # 2. Add at least 4 values to the queue.
+    # 3. Improve the print statements so they clearly explain what is happening.
+    # 4. Demonstrate FIFO behavior.
+    # 5. Show what happens when dequeue() is used on an empty queue.
+    #
+    # Edge Cases:
+    # 6. Show what happens when front() is used on an empty queue.
+    # 7. Create a queue with only one item, remove it,
+    #    and verify the queue is empty afterward.
 
-print("\n=== QUEUE DEMO ===")
-print("TODO: Create a Queue object, demonstrate FIFO behavior,")
-print("      test dequeuing from an empty queue,")
-print("      test viewing the front of an empty queue,")
-print("      and verify a single-item queue becomes empty after removal.")
+    print("\n=== QUEUE DEMO ===")
+    print("TODO: Create a Queue object, demonstrate FIFO behavior,")
+    print("      test dequeuing from an empty queue,")
+    print("      test viewing the front of an empty queue,")
+    print("      and verify a single-item queue becomes empty after removal.")
 
 if __name__ == "__main__":
     main()
