@@ -104,7 +104,7 @@ class Queue:
     def is_empty(self):
         # TODO (Student): Return True if the queue has no values.
         if len(self.queueItems) == 0:
-            return None
+            return True
 
         return True
 
