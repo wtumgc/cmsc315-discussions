@@ -230,7 +230,8 @@ def main():
 
     # Test a single-item queue.
     print("\n    === SINGLE-ITEM QUEUE TEST ===")
-    print("      Test viewing the front of an empty queue and verify a single-item queue becomes empty after removal.")
+    print("      Test viewing the front of an empty queue and")
+    print("      verify a single-item queue becomes empty after removal.")
     q2 = Queue()
     q2.enqueue(99)
     print("      Queue before removal:", q2.queueItems)
