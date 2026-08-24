@@ -18,38 +18,64 @@ class Stack:
     def __init__(self):
         # TODO (Student): Create the internal data structure for the stack.
         # Hint: A Python list can be used to store stack values.
-        pass
+
+        self.stacItems = []
 
     def push(self, value):
         # TODO (Student): Add value to the stack.
         # Add a short comment explaining why this operation supports LIFO behavior.
-        pass
+
+        # The "append" method creates a new array element at the end of the array
+        # effectively behaving as top of the stack for this LIFO ADT
+        self.stacItems.append(value)
 
     def pop(self):
         # TODO (Student): Remove and return the most recently added value.
         # Improve or explain empty-stack handling.
         # What should happen if the stack is empty?
-        pass
+
+        # Remove the last item added to the stack using the built-in
+        # pop method for arrays. Also check for empty stack
+        if not self.stacItems:
+            #return None
+            return "The stack is empty"
+
+        return self.stacItems.pop()
 
     def peek(self):
         # TODO (Student): Return the top value without removing it.
         # Add a comment explaining what peek does.
-        pass
+
+        # Peek looks for the value of the item at the top of the stack
+        # without removing it (and returns the value). Again, check for
+        # an empty stack.
+        if not self.stacItems:
+            #return None
+            return "The stack is empty"
+
+        return self.stacItems[-1]
 
     def is_empty(self):
         # TODO (Student): Return True if the stack has no values.
-        pass
+
+        if len(self.stacItems) == 0:
+            return True
+
+        return False
 
 
 class Queue:
     def __init__(self):
         # TODO (Student): Create the internal data structure for the queue.
         # Hint: collections.deque is useful for efficient queue operations.
-        pass
+
+        # Using the "collections" deque method, create an empty deque
+        self.queueItems = deque()
 
     def enqueue(self, value):
         # TODO (Student): Add value to the back of the queue.
         # Add a short comment explaining why this operation supports FIFO behavior.
+
         pass
 
     def dequeue(self):
