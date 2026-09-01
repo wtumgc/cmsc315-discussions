@@ -19,12 +19,22 @@ This assignment examines insertion, deletion, and searching in Python lists.
 4. Demonstrate edge cases.
 5. Create a real-world scenario.
 
-## Discussion Board Reflection
+## Structure and Approach
 
-After completing the programming assignment, add this reflection to your initial discussion post in LEO.
+Before modifying the template code file, I reviewed the built-in function
+for a Python list object. Once I recalled what the list function were, I
+used them in each of the custom methods in the template file for the following
+functions:
 
-Your reflection should be approximately 150–200 words and address the following questions:
+- insert_at
+- delete_at
+- search_value
 
-1. What concepts or skills did you learn while completing this assignment?
-2. What challenges did you encounter, and how did you overcome them?
-3. How do list operations impact performance in real-world applications?
+Once all required custom functions were created, they were used to test
+the following:
+
+- inserting at the beginning, middle and end of a newly created list
+- deletion at the beginning, middle and end of a newly created list
+- various search scenarios including searching for values that do not exist
+- various edge cases (see code documentation)
+

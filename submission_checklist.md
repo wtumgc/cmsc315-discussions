@@ -16,8 +16,8 @@ Use this checklist before submitting your weekly discussion.
 
 ## Concept Understanding Checklist
 - [ ] My code demonstrates the required operations for the week.
-- [ ] My README explains how the structure or algorithm works.
-- [ ] My README includes at least one real-world use case or interpretation.
+- [X] My README explains how the structure or algorithm works.
+- [X] My README includes at least one real-world use case or interpretation.
 
 ## Customization Checklist
 - [ ] I added my own example or scenario beyond the starter.
@@ -25,7 +25,7 @@ Use this checklist before submitting your weekly discussion.
 
 ## GitHub Checklist
 - [ ] My weekly folder contains the Python file.
-- [ ] My weekly folder contains an updated README.
+- [X] My weekly folder contains an updated README.
 - [ ] My GitHub repository is organized and readable.
 
 ## Discussion Checklist
