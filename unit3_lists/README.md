@@ -38,3 +38,6 @@ the following:
 - various search scenarios including searching for values that do not exist
 - various edge cases (see code documentation)
 
+## Output from Week 3 Code Assignment
+
+![img.png](img.png)
