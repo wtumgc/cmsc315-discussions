@@ -21,12 +21,10 @@ This assignment introduces Binary Search Trees (BSTs) and recursive tree operati
 5. Demonstrate edge cases.
 6. Create a real-world BST example.
 
-## Discussion Board Reflection
+## Structure and Approach
 
-After completing the programming assignment, add this reflection to your initial discussion post in LEO.
+Before beginning any pseudocode or code logic planning in general, it was necessary for me to go back and review the traversal logic for both searching and listed node values. Once I had a better understanding of how and why the zyBooks examples worked for traversing a binary search tree, the rest of the code was less of a challenge by comparison. After the classes were created, each method was created and tested individually while working in parallel on the main method.
 
-Your reflection should be approximately 150–200 words and address the following questions:
+## Output from Week 4 Code Assignment
 
-1. What concepts or skills did you learn while completing this assignment?
-2. What challenges did you encounter, and how did you overcome them?
-3. Explain BST behavior and compare to how ordering works to create efficiency as compared to other data structures.
+![img.png](img.png)
