@@ -32,4 +32,4 @@ Your reflection should be approximately 150–200 words and address the followin
 
 ## Structure and Approach
 
-.
+With this week's assignment, both linear and binary search methods were implemented. While the linear method is very straight forward, the binary search involved more code but is much more efficient. It divides the data set in half each time thus eliminating half of the data for a faster search. Both a small data set and a much larger data set are used as examples of how efficient a binary search can be. Also, edge cases were introduced to show how searching for the first and last element of the array list results are found. 
