@@ -52,7 +52,7 @@ def binary_search(lst, target):
     - Return the index if the target is found.
     - Return -1 if the target is not found.
     - Add comments explaining how each iteration
-      reduces the search space.
+      reduces the search space..
     """
 
     #   Create a reference variable for the first and last array list elements
