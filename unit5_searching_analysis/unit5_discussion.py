@@ -170,6 +170,8 @@ def main():
     print("\n=== EDGE CASE TESTS ===")
     print("TODO: Demonstrate and explain edge cases.")
 
+    print("Edge Case Data Set: [11, 22, 33, 44, 55, 66, 77]")
+
     #   Edge case - Value at the first position
     elist1 = [11, 22, 33, 44, 55, 66, 77]
     target = 11
