@@ -33,7 +33,7 @@ Your reflection should be approximately 150–200 words and address the followin
 
 ## Structure and Approach
 
-With this week's assignment, a hash table (i.e., Python dictionary) was created and various method were implemented using the provided template code to create said methods. For each method/funtion, the code block was created then tested for each function to make sure it worked before coding the subsequent function.
+With this week's assignment, a hash table (i.e., Python dictionary) was created and various methods were implemented using the provided template code to create said methods. For each method/funtion, the code block was created then tested for each function to make sure it worked before coding the subsequent function.
 
 ## OUTPUT
 
