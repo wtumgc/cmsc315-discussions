@@ -37,4 +37,3 @@ With this week's assignment, a hash table (i.e., Python dictionary) was created 
 
 ## OUTPUT
 
-![img.png](img.png)
