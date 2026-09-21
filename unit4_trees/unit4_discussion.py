@@ -162,6 +162,7 @@ class BST:
         # Next, go to the right part of the tree.
         self._inorder_recursive(node.right, values)
 
+###############################################################################################
 
 def main():
     print("=== UNIT 4: BINARY SEARCH TREES ===")
@@ -187,7 +188,7 @@ def main():
     #   Create list of 7 values and update the new binary
     #       search tree with these values. Make them out
     #       of order to show how tree traversing works
-    v = [55, 33, 99, 22, 77, 88, 44]
+    v = [55, 33, 99, 22, 77, 88, 44, "Aron"]
     for values in v:
         binary_search_tree1.insert(values)
     #   A binary search tree can be more efficient that a linear search. This is because
