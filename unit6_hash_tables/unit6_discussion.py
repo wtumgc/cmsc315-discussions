@@ -161,7 +161,7 @@ def main():
     #   existence of the key and respond accordingly instead of throwing
     #   an exception. Once the provided key is attempted to be deleted,
     #   the user will be told the deletion was successful. Otherwise, the
-    #   user will be told the table entry does not exist and no change was made..
+    #   user will be told the table entry does not exist and no change was made.
     if "Lizard" in pets:
         del pets["Lizard"]
         print("Edge Case 2: The hash table entry for Lizard was deleted")
