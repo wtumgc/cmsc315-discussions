@@ -27,4 +27,12 @@ Your reflection should be approximately 150–200 words and address the followin
 
 1. What concepts or skills did you learn while completing this assignment?
 2. What challenges did you encounter, and how did you overcome them?
-3. Compare and constrast each sorting algorithm based on efficiency differences, tradeoffs made, and when to each.
+3. Compare and contrast each sorting algorithm based on efficiency differences, tradeoffs made, and when to each.
+
+## Structure and Approach
+
+With this week's assignment, a hash table (i.e., Python dictionary) was created and various methods were implemented using the provided template code to create said methods. For each method/funtion, the code block was created then tested for each function to make sure it worked before coding the subsequent function.
+
+## OUTPUT
+
+![img.png](img.png)
