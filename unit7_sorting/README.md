@@ -31,7 +31,11 @@ Your reflection should be approximately 150–200 words and address the followin
 
 ## Structure and Approach
 
-With this week's assignment, a hash table (i.e., Python dictionary) was created and various methods were implemented using the provided template code to create said methods. For each method/funtion, the code block was created then tested for each function to make sure it worked before coding the subsequent function.
+With this week's assignment, sorting algorithms were created for both bubble and merge sorting using 2 different data sets. The merge method calls a helper method recursively that perform the actual sorting of data set elements.
+
+In addition, edge cases were created to test sorting on both algorithms for an empty data set as well as a data set with only 1 element.
+
+Both data sets for the initial bubble and merge sorting were created with the original element as out of order as possible as to stress test the algorithm logic as much as possible.
 
 ## OUTPUT
 
