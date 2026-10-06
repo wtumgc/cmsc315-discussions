@@ -19,16 +19,6 @@ This assignment compares Bubble Sort and Merge Sort.
 4. Analyze performance.
 5. Create a real-world sorting example.
 
-## Discussion Board Reflection
-
-After completing the programming assignment, add this reflection to your initial discussion post in LEO.
-
-Your reflection should be approximately 150–200 words and address the following questions:
-
-1. What concepts or skills did you learn while completing this assignment?
-2. What challenges did you encounter, and how did you overcome them?
-3. Compare and contrast each sorting algorithm based on efficiency differences, tradeoffs made, and when to each.
-
 ## Structure and Approach
 
 With this week's assignment, sorting algorithms were created for both bubble and merge sorting using 2 different data sets. The merge method calls a helper method recursively that perform the actual sorting of data set elements.

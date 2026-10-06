@@ -20,14 +20,22 @@ This assignment explores graph traversal using Breadth-First Search (BFS).
 5. Analyze BFS behavior.
 6. Create a real-world graph example.
 
+## Structure and Approach
 
-## Discussion Board Reflection
+With this week's assignment, a graph was traversed using Breadth-First Search (BFS). For my graph table, I chose something I am familiar with, a network environment. My map is as follows (without edge cases):
 
-After completing the programming assignment, add this reflection to your initial discussion post in LEO.
+                Internet
+                   |
+|------------Firewall-------------|
+|                                 |
+Router1  -- Switch1 -- Switch2 -- Router2
+|           |
+|           |-- Server2
+|-- Server1 |-- PC2
+|-- PC1     |-- Printer2
 
-Your reflection should be approximately 150–200 words and address the following questions:
+The BFS method logic was taken from what we learned in class this week and basic testing with just a few nodes was performed before creating the full blown TODO items to create and traverse a graph. Edge cases were chosen from our suggestion list and include starting from specific node as well as starting from a non-existent node.
 
-1. What concepts or skills did you learn while completing this assignment?
-2. What challenges did you encounter, and how did you overcome them?
-3. Compare BFS and DFS conceptually and describe real-world applications and use cases.
+## OUTPUT
 
+![img.png](img.png)
